@@ -1,0 +1,16 @@
+output DVI-I-1
+off
+output LVDS-1
+crtc 0
+mode 1440x900
+pos 0x0
+rate 60.00
+x-prop-non_desktop 0
+x-prop-scaling_mode Full
+output VGA-1
+crtc 1
+mode 1024x768
+pos 0x0
+rate 60.04
+x-prop-non_desktop 0
+x-prop-scaling_mode None

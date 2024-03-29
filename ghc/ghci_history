@@ -1,0 +1,100 @@
+:quit
+mult1
+:l practice.hs 
+(\y -> (\x -> 10 * 5 + y)(* 5)10)
+(\y -> (\x -> 10 * 5 + y)(x * 5)10)
+(\x -> (x*3) + 1000)3
+(\x -> x + 1000)3
+(\x -> x + 9001)3
+(\x -> x + 9001)10
+mult1
+:l practice.hs 
+where
+(\x -> x * 3 + y)3(y -> 1000)
+(\x -> x * 3 + y)3(y = 1000)
+(\x -> x * 3 + y)3
+x + 9001 where x = 10
+x * 3 + 1000 where x = 3
+(\x -> x + 9001) 10
+(\x -> x) "blah"
+(\x -> x) 1
+(\x -> x) 0
+mult1
+:l practice.hs 
+let x = 3; y = 1000 in x + 3
+let x = 5; y = 6 in x * y
+let x = 5 in x * x
+let x = 5 in x
+printInc2' 3
+:l FunctionWithLet
+printInc2 3
+:l FunctionWithLet.hs 
+3 + (rem(-12)7)
+3 + (mod(-12)7)
+1 + (mod 23 7)
+quot 8 3
+rem 8 3
+mod 8 3
+mod 8 2
+rem 8 2
+mod 8 3
+mod 10 2
+2 mod 5
+f
+:l learn.hs 
+double 2
+let double x = x * 2
+let double x = b * 2
+area 2
+area 9
+let area x = 3.14 * ( x * x )
+myResult 
+:l learn
+y
+:l learn
+myResult 
+:l test
+myResult 
+y
+x
+x
+hx
+myResult 
+let myResult = x * 5
+let x = 10 * 5 + y
+let y = 10
+:info `/`
+:info "/"
+:info '/'
+f 2
+f x = x /(2 + 9)
+f 2
+f x = x /2 + 9
+perimeter 2 2
+perimeter x y =  x * 2 + y * 2
+perimeter 2 2
+perimeter x y =  ( x * 2) + (y * 2)
+(8 +7) * 9
+8 + 7 * 9
+(2^3)^4
+2^(3^4)
+2^3
+2^2
+:info (^)
+2 * 3 * 4
+:info (*)
+div 10 4
+10 `div` 4
+1 + 1
+id 1
+mult 4
+mult 5
+mult 10
+:l test
+:l test
+:l test
+:l test
+:l test
+:l test
+:l test
+:m
